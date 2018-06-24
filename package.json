@@ -1,0 +1,46 @@
+{
+  "name": "libp2p-simple",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/nodejs.js",
+  "browser": "src/browserjs.js",
+  "scripts": {
+    "lint": "eslint src test",
+    "pretest": "npm run lint",
+    "test": "tap test/test-*.js --100"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ipfs": "^0.29.3",
+    "keypair": "^1.0.1",
+    "libp2p-kad-dht": "^0.10.0",
+    "libp2p-mdns": "^0.12.0",
+    "libp2p-mplex": "^0.8.0",
+    "libp2p-railing": "^0.9.1",
+    "libp2p-secio": "^0.10.0",
+    "libp2p-tcp": "^0.12.0",
+    "libp2p-websocket-star": "^0.8.1",
+    "libp2p-websockets": "^0.12.0",
+    "multihashes": "^0.4.13",
+    "peer-book": "^0.8.0",
+    "peer-id": "^0.10.7",
+    "peer-info": "^0.14.1",
+    "pem-jwk": "^1.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "tap": "^12.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard"
+    ]
+  }
+}
