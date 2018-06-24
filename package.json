@@ -1,7 +1,7 @@
 {
   "name": "libp2p-simple",
   "version": "0.1.0",
-  "description": "",
+  "description": "Pre-configured libp2p module.",
   "main": "src/nodejs.js",
   "browser": "src/browserjs.js",
   "scripts": {
@@ -42,5 +42,16 @@
     "extends": [
       "standard"
     ]
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeal/libp2p-simple.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikeal/libp2p-simple/issues"
+  },
+  "homepage": "https://github.com/mikeal/libp2p-simple#readme"
 }
